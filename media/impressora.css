@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* CSS para Impressoras */
+
+:root {
+    --cor0: #fff;
+    --cor1: #024059;
+    --cor2: #026873;
+    --cor3: #04BF8A;
+    --cor4: #025940;
+    --cor5: #03A64A;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', cursive; 
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: var(--cor4);
+}
+
+header {
+    box-shadow: none;
+}
+
+header h1 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor4);
+    text-shadow: none;
+    font-size: 2.3em;
+}
+
+header p {
+    font-family: var(--fonte-padrao);
+    color: var(--cor4);
+    text-shadow: none;
+}
+
+article {
+    box-shadow: none;
+}
+
+article h1, h2, h3 {
+    font-family: var(--fonte-padrao);
+    color: var(--cor4);
+    text-shadow: none;
+}
+
+p {
+    color: black;
+}
+
+nav {
+    display: none;
+}
+
+picture {
+    display: none;
+}
+
+.externo {
+    display: none;
+}
+
+#video {
+    display: none;
+}
+
+aside {
+    display: none;
+}
